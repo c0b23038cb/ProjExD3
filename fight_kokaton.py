@@ -190,7 +190,7 @@ def main():
                     bombs[i] = None
                     beam = None
                     bird.change_img(6, screen)
-                    score.score += 1
+                    score.score += 1 
                     
 
         bombs = [bomb for bomb in bombs if bomb is not None]
